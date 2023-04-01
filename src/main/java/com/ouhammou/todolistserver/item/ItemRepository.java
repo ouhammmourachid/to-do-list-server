@@ -1,4 +1,7 @@
 package com.ouhammou.todolistserver.item;
 
-public interface ItemRepository {
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ItemRepository extends JpaRepository<Item, Long> {
 }
