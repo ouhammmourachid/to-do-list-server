@@ -29,7 +29,7 @@ public class Item {
   ```
   - **POST**  to add a new item :
   ```HTTP
-  POST /api/v1/item HTTP/1.1
+  POST /api/v1/item/ HTTP/1.1
     Host: localhost:8080
     Content-Type: application/json
     Content-Length: 82
@@ -42,7 +42,7 @@ public class Item {
   ```
   - **PUT** to update an existing item: 
   ```HTTP
-  PUT /api/v1/item/1 HTTP/1.1
+  PUT /api/v1/item/1/ HTTP/1.1
     Host: localhost:8080
     Content-Type: application/json
     Content-Length: 79
@@ -55,7 +55,7 @@ public class Item {
   ```
   - **DELETE** to delete an item:
   ```HTTP
-  DELETE /api/v1/item/1 HTTP/1.1
+  DELETE /api/v1/item/1/ HTTP/1.1
     Host: localhost:8080
   ```
 
